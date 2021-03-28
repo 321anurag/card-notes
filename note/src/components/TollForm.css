@@ -1,0 +1,61 @@
+
+.Form {
+  margin:auto;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: black;
+  max-width: 50vh;
+  height: 40vh;
+}
+
+.App {
+  margin:auto;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: black;
+  max-width: 50vh;
+  height: 40vh;
+}
+
+
+.App-section {
+  text-align: center;
+  background-color: grey;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 40vh;
+}
+.Form-section {
+  text-align: center;
+  background-color: grey;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 40vh;
+}
+
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
